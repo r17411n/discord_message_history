@@ -1,0 +1,168 @@
+{
+    "author": "MAGACAT",
+    "email": "magacatzz@proton.me",
+    "title": "Message Storage System",
+    "description": "Message storage architecture",
+    "version": "0.1.0",
+    "timezone": "UTC+01:00",
+    "create_date": "23-12-2025",
+    "create_time": "10:15:00 AM",
+    "last_update": "24-12-2025",
+    "last_update_time": "02:47:33 AM",
+    "messages": {
+        "servers": [
+            {
+                "server_name": "My Server",
+                "server_id": "1122334455",
+                "server_avatar_url": "http://cdn.discord.com/images/image.jpg",
+                "channels": [
+                    {
+                        "channel_name": "general",
+                        "channel_id": "6677889900",
+                        "messages": [
+                            {
+                                "author": "User1",
+                                "userid": "123456789",
+                                "user_avatar": "http://cdn.discord.com/images/avatar1.jpg",
+                                "content": "Hello, world!",
+                                "attachment": null,
+                                "timestamp": "2025-06-12T10:00:00Z"
+                            },
+                            {
+                                "author": "User2",
+                                "userid": "987654321",
+                                "user_avatar": "http://cdn.discord.com/images/avatar2.jpg",
+                                "content": "Hi there!",
+                                "attachment": null,
+                                "timestamp": "2025-06-12T10:05:00Z"
+                            }
+                        ]
+                    },
+                    {
+                        "channel_name": "random",
+                        "channel_id": "9988776655",
+                        "messages": [
+                            {
+                                "author": "User3",
+                                "userid": "555666777",
+                                "content": "Random message here.",
+                                "timestamp": "2025-06-12T11:00:00Z"
+                            },
+                            {
+                                "author": "User4",
+                                "userid": "444333222",
+                                "content": "Another random message.",
+                                "timestamp": "2025-06-12T11:05:00Z"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "personal_messages": [
+            {
+                "conversation_with": "Friend1",
+                "friend_avatar": "https://cdn.discord.com/images/avatar3.jpg",
+                "messages": [
+                    {
+                        "author": "Me",
+                        "userid": "123456789",
+                        "message_id": "msg001",
+                        "content": "Hey, how are you?",
+                        "attachment": null,
+                        "timestamp": "2025-06-12T12:00:00Z"
+                    },
+                    {
+                        "author": "Friend1",
+                        "userid": "111222333",
+                        "message_id": "msg002",
+                        "content": "I'm good, thanks!",
+                        "attachment": null,
+                        "timestamp": "2025-06-12T12:05:00Z"
+                    }
+                ]
+            },
+            {
+                "conversation_with": "Friend5",
+                "friend_avatar": "https://cdn.discord.com/images/avatar4.jpg",
+                "messages": [
+                    {
+                        "author": "Me",
+                        "userid": "123456789",
+                        "message_id": "msg007",
+                        "content": "Hey, how are you?",
+                        "attachment": null,
+                        "timestamp": "2025-06-12T12:00:00Z"
+                    },
+                    {
+                        "author": "Friend5",
+                        "userid": "111222344",
+                        "message_id": "msg009",
+                        "content": "I'm good, thanks!",
+                        "attachment": null,
+                        "timestamp": "2025-06-12T12:05:00Z"
+                    }
+                ]
+            }
+        ],
+        "friends": [
+            {
+                "friend_name": "",
+                "friend_id": "",
+                "profile_info": {
+                    "status": "",
+                    "last_online": "",
+                    "notes": "",
+                    "profile_text": "",
+                    "nitro": false,
+                    "badges": [
+                        {
+                            "early_supporter": true,
+                            "nitro": false,
+                            "nitro_since": "status",
+                            "house": "hype",
+                            "developer": false,
+                            "admin": false,
+                            "orbs": true
+                        }
+                    ],
+                    "mutual_friends": {
+                        "count": 0,
+                        "online": 0,
+                        "friends_list": [
+                            {
+                                "name": "name1",
+                                "id": "1231",
+                                "mutual_servers": [
+                                    {
+                                        "server_name": "Server1",
+                                        "server_id": "1111"
+                                    },
+                                    {
+                                        "server_name": "Server2",
+                                        "server_id": "2222"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "name2",
+                                "id": "4567",
+                                "mutual_servers": [
+                                    {
+                                        "server_name": "Server3",
+                                        "server_id": "3333"
+                                    },
+                                    {
+                                        "server_name": "Server4",
+                                        "server_id": "4444"
+                                    }
+                                ]
+
+                            }
+                        ]                         
+                    }
+                }
+            }
+        ]
+    }
+}
